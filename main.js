@@ -7,4 +7,9 @@ async function getFetchData() {
   );
   const data = await response.json();
   console.log("Data: ", data);
+  displayData(data)
+}
+
+function displayData(data){
+  
 }
